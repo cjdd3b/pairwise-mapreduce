@@ -4,4 +4,22 @@ Jimmy Lin and Douglas W. Oard of the University of Maryland.
 
 Written by Chase Davis, with the help of many, many Google searches.
 
+Test locally with this command within download directory:
+
+cat input.txt | python ./inv-index-mapper.py | sort -k1,1 | ./inv-index-reducer.py \
+| ./pairwise-mapper.py | sort -k1,1 | ./pairwise-reducer.py
+
+Output should be:
+
+"1|2"   2
+"1|4"   2
+"1|7"   1
+"2|4"   1
+"2|7"   1
+"3|5"   1
+"4|7"   1
+"7|6"   2
+"8|6"   2
+"8|7"   1
+
 Questions? Did I do something wrong? Drop me a line at chase.davis@gmail.com
