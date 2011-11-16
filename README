@@ -1,0 +1,7 @@
+Python implementation of MapReduce similarity algorithm described in the paper
+"Pairwise Document Similarity in Large Collections with MapReduce", by Tamer Elsayed,
+Jimmy Lin and Douglas W. Oard of the University of Maryland.
+
+Written by Chase Davis, with the help of many, many Google searches.
+
+Questions? Did I do something wrong? Drop me a line at chase.davis@gmail.com
